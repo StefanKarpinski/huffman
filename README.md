@@ -1,7 +1,9 @@
 Huffman Encoding & Decoding in 27 lines of Perl
 ===============================================
 
-Oh, yeah, character frequency and Huffman code table generation too. Example usage:
+Oh, yeah, character frequency and Huffman code table generation too.
+
+Example usage:
 
     file=/usr/share/dict/words
     ./frequencies.pl $file > freq.txt
