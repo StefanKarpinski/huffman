@@ -5,7 +5,7 @@ Oh, yeah, character frequency and Huffman code table generation too.
 
 Example usage:
 
-    file=/usr/share/dict/words
+    file=README.md
     ./frequencies.pl $file > freq.txt
     ./huffman.pl freq.txt > huff.txt
     cat $file | ./encode.pl huff.txt > enc.huf
