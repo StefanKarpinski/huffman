@@ -12,4 +12,4 @@ Example usage:
     cat enc.huf | ./decode.pl huff.txt > dec.txt
     diff $file dec.txt
 
-Suck it, Trebek.
+Thanks to @stefanrueger who kindly pointed out edge cases where the initial code failed and solved them with no additional lines needed.
