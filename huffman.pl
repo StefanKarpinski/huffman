@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 /^\s*(\d+)\s+(\d+)\s*$/ and push @_,[$1,$2] while <>;
+push @_, [-1, 1];
 while (@_ > 1) {
     @_ = @_[sort { $_[$a]->[1] <=> $_[$b]->[1] or $a <=> $b } 0..$#_];
     my @x = splice @_,0,2;
